@@ -7,7 +7,7 @@
 int main(){
     struct sockaddr_in server;
     int sock;
-    char buf[]="M1330491";
+    char buf[]="test";
     bzero(&server,sizeof(sserver));
     server.sin_family=PF_INET;
     server.sin_addr.s_addr=inet_addr("127.0.0.1");
